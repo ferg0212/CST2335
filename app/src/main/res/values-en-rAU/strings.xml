@@ -3,4 +3,10 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">OI, WELCOME TO AUSTRALIA, SHE\'S A RIGHT GORGEOUS DAY!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="login">Gotta Log In \'Ere</string>
+    <string name="password">This is for that safe key</string>
+    <string name="loginN">Write your name \'ere</string>
+    <string name="rb">This one of them radio buttons</string>
+    <string name="check">Checkers</string>
+    <string name="swit">What on earth..?</string>
 </resources>

@@ -16,16 +16,26 @@ import static android.widget.Toast.LENGTH_SHORT;
 
 public class StartActivity extends Activity {
 
-    protected static final String ACTIVITY_NAME = "LoginActivity";
+    protected static final String ACTIVITY_NAME = "StartActivity";
     String messagePassed;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME, "In OnCreate()");
         Button startListItem = (Button) findViewById(R.id.button);
+        Button startChat = (Button) findViewById(R.id.chatButton);
+
+        startChat.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+
+                Intent startChat = new Intent(StartActivity.this ,ChatWindow.class);
+
+                startActivityForResult(startChat, 10);
+            }
+        } );
 
 
         startListItem.setOnClickListener(new View.OnClickListener() {

@@ -10,6 +10,10 @@
     <string name="dialog_message">Do you want to end the activity?</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="startChat">Start Chat</string>
+    <string name="reminder">message...</string>
+    <string name="sendMessage">Send</string>
+    <string name="newTextHint">New Text</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="dialog_title">This is a dialog title</string>
 </resources>

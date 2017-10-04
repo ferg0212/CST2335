@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.ResourceBundle;
 
 
 public class LoginActivity extends Activity {
